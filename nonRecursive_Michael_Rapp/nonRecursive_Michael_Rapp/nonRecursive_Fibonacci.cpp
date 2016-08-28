@@ -1,8 +1,10 @@
 /*
 	CS 2420 Utah Valley University
 	nonRecursive_Fibonacci.cpp
-	Purpose: Takes input from data file and outputs the number in the position of the fibonacci sequence of the number input.
+	Purpose: Takes input from data file and outputs the number in the 
+			 position of the fibonacci sequence of the number input.
 	Author: Michael Rapp
+	Date: 8/28/2016
 */
 
 #include<string>
@@ -83,7 +85,7 @@ int fibonacci(int num) {
 
 bool openFile(ifstream & inFile) {
 	/*
-		This function takes the filepath entered by the user, esures the file
+		This function takes the filepath entered by the user and esures the file
 		exists. If file is opened returns true, else false.
 	*/
 	string filePath;
